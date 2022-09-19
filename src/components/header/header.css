@@ -36,6 +36,10 @@ header {
     background-color: var(--color-primary);
 }
 
+.header-social-col {
+    padding-bottom: 10px;
+}
+
 /* ME */
 .me {
     background: linear-gradient(var(--color-primary), transparent);
@@ -43,10 +47,16 @@ header {
     height: 30rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 4rem;
+    margin-top: 2rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 0 0 1.5rem;
+}
+
+.me img {
+        display: block;
+        width: 100%;
+        object-fit: cover;
 }
 
 /* SCROLL DOWN */
